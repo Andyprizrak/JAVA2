@@ -14,6 +14,7 @@ public class GameCanvas extends JPanel {
         this.listener =listener;
         lastFrameTime = System.nanoTime();
         setBackground(new Color(bGC.Red, bGC.Green,bGC.Blue));
+        
     }
 
     @Override
